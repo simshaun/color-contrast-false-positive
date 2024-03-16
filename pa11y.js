@@ -4,5 +4,5 @@ pa11y('http://localhost:3000', {
   runners: ['axe'],
   standard: 'WCAG2AA',
 }).then((results) => {
-    console.log(results)
+    console.dir(results, { depth: null })
 });
