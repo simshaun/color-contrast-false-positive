@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "dependencies": {
+    "mime": "^4.0.1",
+    "pa11y": "^7.0.0"
+  },
+  "scripts": {
+    "serve": "node serve.js",
+    "pa11y": "node pa11y.js"
+  }
+}
